@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Travel & Tours Website </title>
+
+ 
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+ <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+  <a href="#" class="logo">Beas<span>T</span>ravels</a>
+  
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#book">book</a>
+    <a href="#packages">packages</a>
+    <a href="#services">services</a>
+    <a href="#gallery">gallery</a>
+    <a href="#review">review</a>
+    <a href="#contact">contact</a>
+  </nav>
+
+  <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+  </div>
+
+  <form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar" class="fas fa-search"></label>
+  </form>
+
+</header>
+
+
+
+<div class="login-form-container">
+
+  <i class="fas fa-times" id="form-close"></i>
+
+  <form action="">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget password? <a href="#">click here</a></p>
+    <p>don't have an account? <a href="#">register now</a></p>
+  </form>
+</div>
+
+
+<section class="home" id="home">
+  <div class="content">
+    <h3>Adventure is worth it</h3>
+    <p>discover new places with us. Adventure awaits!</p>
+    <a href="#" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn active" data-src="Images/vid-1.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-2.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-4.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-5.mp4"></span>
+  </div>
+
+  <div class="video-container">
+    <video src="Images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+  </div>
+
+</section>
+
+
+<section class="book" id="book">
+  <h1 class="heading">
+    <span>𝓑</span>
+    <span>𝑜</span>
+    <span>𝑜</span>
+    <span>𝓀</span>
+    <span class="space"></span>
+    <span>𝓃</span>
+    <span>𝑜</span>
+    <span>𝓌</span>
+  </h1>
+
+  <div class="row">
+    <div class="image">
+      <img src="Images/book-img.svg" alt="">
+    </div>
+    <form action="">
+      <div class="inputBox">
+        <h3>where to</h3>
+        <input type="text" placeholder="place name">
+      </div>
+      <div class="inputBox">
+        <h3>how many</h3>
+        <input type="number" placeholder="number of guests">
+      </div>
+      <div class="inputBox">
+        <h3>arrivals</h3>
+        <input type="date">
+      </div>
+      <div class="inputBox">
+        <h3>leaving</h3>
+        <input type="date">
+      </div>
+      <input type="submit" class="btn" value="book now">
+    </form>
+  </div>
+</section>
+
+
+
+
+<section class="packages" id="packages">
+
+  <h1 class="heading">
+    <span>𝒫</span>
+    <span>𝒜</span>
+    <span>𝒞</span>
+    <span>𝒦</span>
+    <span>𝒜</span>
+    <span>𝒢</span>
+    <span>𝐸</span>
+    <span>𝒮</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/p-1.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Kathmandu </h3>
+        <p>Discover Kathmandu's vibrant culture and stunning landscapes with our exclusive tour package.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-2.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Pokhara </h3>
+        <p>Uncover the beauty and tranquility of Pokhara with our specially curated tour package.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-3.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Mustang </h3>
+        <p>Embark on a journey to the mystical Mustang with our unique tour package.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-4.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+        <p>Indulge in the romance and elegance of Paris with our exclusive tour package.
+
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-5.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+        <p>Immerse yourself in the dynamic blend of tradition and innovation in Tokyo with our unique tour package.
+
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-6.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+        <p>Immerse yourself in the dynamic blend of tradition and innovation in Tokyo with our unique tour package.
+
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="services" id="services">
+
+  <h1 class="heading">
+    <span>𝒮</span>
+    <span>𝐸</span>
+    <span>𝑅</span>
+    <span>𝒱</span>
+    <span>𝐼</span>
+    <span>𝒞</span>
+    <span>𝐸</span>
+    <span>𝒮</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fas fa-hotel"></i>
+      <h3>affordable hotels</h3>
+      <p>Enjoy comfort and value with our range of affordable hotels, where quality meets budget.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-utensils"></i>
+      <h3>food and drinks</h3>
+      <p>Savor delicious meals and refreshing drinks with our diverse food and beverage options.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-bullhorn"></i>
+      <h3>safty guide</h3>
+      <p>Stay informed and secure with our comprehensive safety guide, ensuring a safe and enjoyable experience.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-globe-asia"></i>
+      <h3>around the world</h3>
+      <p>Explore the globe with confidence using our detailed safety guide for traveling around the world.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-plane"></i>
+      <h3>fastest travel</h3>
+      <p>Experience swift and efficient journeys with our fastest travel options.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-hiking"></i>
+      <h3>adventures</h3>
+      <p>Dive into thrilling adventures and unforgettable experiences with our curated adventure packages.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="gallery" id="gallery">
+
+  <h1 class="heading">
+    <span>𝒢</span>
+    <span>𝒜</span>
+    <span>𝐿</span>
+    <span>𝐿</span>
+    <span>𝐸</span>
+    <span>𝑅</span>
+    <span>𝒴</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/g-1.jpg" alt="">
+      <div class="content">
+        <h3>Kathmandu</h3>
+        <p> The bustling capital city of Nepal, Kathmandu is rich in history and culture.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-2.jpg" alt="">
+      <div class="content">
+        <h3>Pokhara</h3>
+        <p>Known for its stunning lakes and breathtaking views of the Annapurna mountain range</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-3.jpg" alt="">
+      <div class="content">
+        <h3>Chitwan National Park</h3>
+        <p>This UNESCO World Heritage Site is home to diverse wildlife, including the rare one-horned rhinoceros</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-4.jpg" alt="">
+      <div class="content">
+        <h3>Lumbini</h3>
+        <p>The birthplace of Lord Buddha, Lumbini is a pilgrimage site that attracts visitors with its serene monasteries</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-5.jpg" alt="">
+      <div class="content">
+        <h3>Sagarmatha National Park</h3>
+        <p>Home to Mount Everest, the world’s highest peak, this park offers awe-inspiring treks</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-6.jpg" alt="">
+      <div class="content">
+        <h3>Paris, France</h3>
+        <p>The "City of Light," Paris is famous for the Eiffel Tower and the Louvre, blending art, culture, and romance.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-7.jpg" alt="">
+      <div class="content">
+        <h3>Kyoto, Japan</h3>
+        <p> Known for its beautiful temples and cherry blossoms, Kyoto offers a serene escape into Japan's cultural heritage.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-8.jpg" alt="">
+      <div class="content">
+        <h3>Machu Picchu, Peru</h3>
+        <p> An ancient Incan citadel in the Andes, Machu Picchu is a breathtaking site steeped in history.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-9.jpg" alt="">
+      <div class="content">
+        <h3>Santorini, Greece</h3>
+        <p>Renowned for its white-washed buildings, blue domes, and stunning sunsets.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<section class="review" id="review">
+
+  <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+  </h1>
+
+  <div class="swiper-container review-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic1.png" alt="">
+          <h3>Emma S.</h3>
+          <p>"Paris is truly enchanting! The Eiffel Tower at night is a sight to behold, and the Louvre's vast art collection left me in awe. A perfect city for art and romance lovers."</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic2.png" alt="">
+          <h3>Akira T.</h3>
+          <p>"Kyoto's temples and gardens are incredibly peaceful and beautiful. The cherry blossoms in spring are breathtaking, and the traditional tea houses provide a unique cultural experience."</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic3.png" alt="">
+          <h3>Carlos M.</h3>
+          <p> "Visiting Machu Picchu was a dream come true. The hike up was challenging but the view from the top was worth every step. It's a magical place filled with history and mystery."</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic4.png" alt="">
+          <h3>Sophia K.</h3>
+          <p>"Santorini is like stepping into a postcard. The white-washed buildings with blue domes against the backdrop of the Aegean Sea are stunning. Watching the sunset here is an unforgettable experience."
+
+
+
+
+
+
+          </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+  <h1 class="heading">
+    <span>c</span>
+    <span>o</span>
+    <span>n</span>
+    <span>t</span>
+    <span>a</span>
+    <span>c</span>
+    <span>t</span>
+  </h1>
+
+  <div class="row">
+
+    <div class="image">
+      <img src="images/contact-img.svg" alt="">
+    </div>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+      <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="send message">
+    </form>
+
+  </div>
+
+</section>
+
+
+
+
+<section class="brand-container">
+
+  <div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>about us</h3>
+      <p>We craft unforgettable travel experiences, connecting you with the world's wonders.
+        Join us on a journey to explore amazing destinations and create lasting memories.
+        
+        </p>
+    </div>
+    <div class="box">
+      <h3>branch locations</h3>
+      <a href="#">india</a>
+      <a href="#">USA</a>
+      <a href="#">japan</a>
+      <a href="#">france</a>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#">home</a>
+      <a href="#">book</a>
+      <a href="#">packages</a>
+      <a href="#">services</a>
+      <a href="#">gallery</a>
+      <a href="#">review</a>
+      <a href="#">contact</a>
+    </div>
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#">facebook</a>
+      <a href="#">instagram</a>
+      <a href="#">twitter</a>
+      <a href="#">linkedin</a>
+    </div>
+  </div>
+  <h1 class="credit"> created by <span> Sarweshwor </span> | all rights reserved! </h1>
+</section>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
